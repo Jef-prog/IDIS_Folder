@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDIS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerOfAll">
+        <div class="subjectsContainer">
+            <nav class="navSubject">
+                <ul class="subList">
+                    <li>GEC1</li>
+                    <li>GEC2</li>
+                    <li>GEC3</li>
+                    <li>GEC4</li>
+                    <li>GEC5</li>
+                </ul>
+            </nav>
+            <div class="implementContainer">
+                <header><h5>Instructional Delivery Implementation System (IDIS)</h5><p>Saint Micheal College of Caraga (SMCC)</p>
+                    <div></div>
+                    <div>
+                        <nav class="navtab">
+                                <button class="tablinks" onclick="openTab(event, 'Syllabus')">Syllabus</button>
+                                <button class="tablinks" onclick="openTab(event, 'Course')">Course Outline</button>
+                                <button class="tablinks" onclick="openTab(event, 'Competencies')">Competencies</button>
+                        </nav>
+                    </div>
+                </header>
+                <main>
+                    <div class="filesContainer">
+                        <div id="Syllabus" class="tabcontent">
+                            <h4>Syllabus Implementation</h4>
+                          </div>
+                          
+                          <div id="Course" class="tabcontent">
+                            <h4>Course Outline</h4>
+                          </div>
+                          
+                          <div id="Competencies" class="tabcontent">
+                            <h4>Competencies</h4>
+                          </div>
+                    </div>
+                </main>
+
+                <script>function openTab(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                  }</script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
