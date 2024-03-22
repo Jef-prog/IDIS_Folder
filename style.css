@@ -1,8 +1,7 @@
 *{
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .containerOfAll{
     display: grid;
     background-color: #0C1821;
@@ -14,13 +13,15 @@ div .logo{
 img{
     height: 70pt;
     margin: 10pt;
+    border-radius: 10%;
 }
-
 body{
     background-color: #0C1821;
 }
-/*CONTAINERS*/
+/*TOP PART*/
 
+
+/*CONTAINERS*/
 .subjectsContainer{
     display: grid;
     grid-template-columns: 15% 85%;
@@ -30,6 +31,7 @@ body{
 }
 .implementContainer{
     background-color: #0C1821;
+    
 }
 .implementContainer h5, p{
     color: white;
@@ -40,10 +42,13 @@ body{
     margin-right: 1pt;
     margin-top: 30pt;
     height: 20pt;
+    box-shadow: -1pt -1pt 15pt 1pt
 }
 main{
     background-color: burlywood;
-    width: 96%;
+    width: 95.9%;
+    border-bottom-right-radius: 10pt;
+    box-shadow: 10px 20px 20px;
 }
 
 /*DISPLAYS*/
@@ -57,9 +62,11 @@ main{
 }
 .navSubject .selectSub select{
     text-align: center;
+    border-radius: 10pt;
 }
 .selectSub button{
     border-style: none;
+    border-radius: 10pt;
 }
 .selectSub button:hover{
     cursor: pointer;
@@ -81,6 +88,7 @@ main{
 .navSubject ul button{
     border-style: none;
     padding-inline: 35pt;
+    border-radius: 10pt;
 }
 .navSubject ul button:hover{ /*the ADD button*/
     cursor: pointer;
@@ -117,3 +125,5 @@ header{
     cursor: pointer;
     background-color: burlywood;
     }
+
+/*MAIN nani dire dapit*/
