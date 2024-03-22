@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+}
+
+main{
+    margin-top: 20pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+div{
+    flex-wrap: wrap;
+    border-style: solid;
+    width: 20%;
+    height: 90pt;
+}

@@ -5,17 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDIS</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="containerOfAll">
         <div class="subjectsContainer">
             <nav class="navSubject">
+                <div>
+                    <ul>Name: Teacher's name</ul>
+                    <ul>ID: Teacher's ID</ul>
+                </div>
+                <div class="selectSub">
+                    <select name="" id="demo">
+                        <option value="">ADGEC 1</option>
+                        <option value="">FIL 102</option>
+                        <option value="">GEC 1</option>
+                        <option value="">GEC 2</option>
+                        <option value="">GEC 3</option>
+                        <option value="">GEC 4</option>
+                        <option value="">GEC 5</option>
+                        <option value="">GEC 6</option>
+                        <option value="">GEC 7</option>
+                        <option value="">GEC 8</option>
+                        <option value="">GEC 9</option>
+                        <option value="">GEC ELECT 1</option>
+                        <option value="">GEC ELECT 2</option>
+                        <option value="">GEC ELECT 3</option>
+                        <option value="">LIT</option>
+                        <option value="">NSTP-LTS 2</option>
+                        <option value="">NSTP-CWTS  2</option>
+                        <option value="">REED 101</option>
+                        <option value="">REED 103</option>
+                        <option value="">SP</option>
+                        <option value="">STAT</option>
+                    </select>
+                    <button>Add</button>
+                </div>
                 <ul class="subList">
                     <li>GEC1</li>
                     <li>GEC2</li>
                     <li>GEC3</li>
                     <li>GEC4</li>
                     <li>GEC5</li>
+                </ul>
+                <ul>
+                    <button onclick="myFunction()">+</button> <!--ADD a Subject Button-->
                 </ul>
             </nav>
             <div class="implementContainer">
@@ -43,21 +77,7 @@
                             <h4>Competencies</h4>
                           </div>
                     </div>
-                </main>
-
-                <script>function openTab(evt, cityName) {
-                    var i, tabcontent, tablinks;
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                      tabcontent[i].style.display = "none";
-                    }
-                    tablinks = document.getElementsByClassName("tablinks");
-                    for (i = 0; i < tablinks.length; i++) {
-                      tablinks[i].className = tablinks[i].className.replace(" active", "");
-                    }
-                    document.getElementById(cityName).style.display = "block";
-                    evt.currentTarget.className += " active";
-                  }</script>
+                </main>               
             </div>
         </div>
     </div>

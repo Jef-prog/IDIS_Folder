@@ -1,6 +1,7 @@
 
-/*
-function openTab(evt, cityName) {
+
+// clickalbe tabs
+function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -10,9 +11,18 @@ function openTab(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-  */
+// clickalbe tabs
 
-  
+
+// the selection/button that adds a subject
+function myFunction() {
+  document.getElementById("demo").innerHTML = ;
+  document.getElementById("demo").style.display = "block";
+}
+// the selection/button that adds a subject
+
+
+
