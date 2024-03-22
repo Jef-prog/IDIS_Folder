@@ -63,10 +63,12 @@ main{
 .navSubject .selectSub select{
     text-align: center;
     border-radius: 10pt;
+    width: 75%;
 }
 .selectSub button{
     border-style: none;
     border-radius: 10pt;
+    width: 75%;
 }
 .selectSub button:hover{
     cursor: pointer;
@@ -87,7 +89,7 @@ main{
 }
 .navSubject ul button{
     border-style: none;
-    padding-inline: 35pt;
+    padding-inline: 50%;
     border-radius: 10pt;
 }
 .navSubject ul button:hover{ /*the ADD button*/
@@ -127,3 +129,24 @@ header{
     }
 
 /*MAIN nani dire dapit*/
+
+
+
+
+
+/*RESPONSIVE media*/
+@media (max-width: 600px) {
+    .navSubject ul button{
+        width: 100%;
+    }.selectSub select{
+        width: 100%;
+    }
+    .selectSub button{
+        width: 100%;
+    }
+}
+@media (min-width: 800px) {
+    .selectSub button{
+        width: 20%;
+    }
+}
