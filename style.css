@@ -96,11 +96,21 @@ main{
     padding-inline: 50%;
     border-radius: 10pt;
 }
-.navSubject ul button:hover{ /*the ADD button*/
+
+/*.navSubject ul div{
+    display: none;
+    position: absolute;
+}*/
+
+.navSubject ul button:hover { /*the ADD button sa ubos*/
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px;
     background-color: goldenrod;
 }
+
+/*.navSubject button:hover .dropdownBtnContent {
+    display: block;
+}*/
 
 .navtab {
     display: grid;

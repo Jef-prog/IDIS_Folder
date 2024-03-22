@@ -18,7 +18,7 @@ function openTab(evt, tabName) {
 
 
 // the selection and button that adds a subject
-function myFunction() {
+function showSelection() {
   document.getElementById("showSelect").style.display = "block";
   document.getElementById("showButton").style.display = "block";
   evt.currentTarget.className += " active";
