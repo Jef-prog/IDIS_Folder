@@ -3,11 +3,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.containerOfAll{
+    display: grid;
+    background-color: #0C1821;
+    height: 577pt;
+}
 /*CONTAINERS*/
 
 .subjectsContainer{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 85%;
 }
 .navSubject{
     background-color: #324A5F;
@@ -35,16 +40,23 @@ main{
     padding: 5pt;
     text-align: center;
 }
-.navSubject .selectSub select{
-    width:70pt;
+.selectSub{
     text-align: center;
+}
+.navSubject .selectSub select{
+    text-align: center;
+}
+.selectSub button{
+    border-style: none;
 }
 .selectSub button:hover{
     cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
     background-color: goldenrod;
 }
 .selectSub select:hover{
     cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
 }
 .navSubject .subList button{
     display: none;
@@ -60,9 +72,6 @@ main{
 }
 .navSubject ul button:hover{ /*the ADD button*/
     cursor: pointer;
-    padding-inline: 40pt;
-    padding-top: 2pt;
-    padding-bottom: 2pt;
     box-shadow: 2px 2px 2px 2px;
     background-color: goldenrod;
 }

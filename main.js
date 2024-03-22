@@ -19,7 +19,6 @@ function openTab(evt, tabName) {
 
 // the selection/button that adds a subject
 function myFunction() {
-  document.getElementById("demo").innerHTML = ;
   document.getElementById("demo").style.display = "block";
 }
 // the selection/button that adds a subject
