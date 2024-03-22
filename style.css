@@ -63,12 +63,12 @@ main{
 .navSubject .selectSub select{
     text-align: center;
     border-radius: 10pt;
-    width: 75%;
+    width: 70%;
 }
 .selectSub button{
     border-style: none;
     border-radius: 10pt;
-    width: 75%;
+    width: 70%;
 }
 .selectSub button:hover{
     cursor: pointer;
@@ -138,10 +138,8 @@ header{
 @media (max-width: 600px) {
     .navSubject ul button{
         width: 100%;
-    }.selectSub select{
-        width: 100%;
     }
-    .selectSub button{
+    .selectSub select{
         width: 100%;
     }
 }
