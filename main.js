@@ -17,11 +17,13 @@ function openTab(evt, tabName) {
 // clickalbe tabs
 
 
-// the selection/button that adds a subject
+// the selection and button that adds a subject
 function myFunction() {
-  document.getElementById("demo").style.display = "block";
+  document.getElementById("showSelect").style.display = "block";
+  document.getElementById("showButton").style.display = "block";
+  evt.currentTarget.className += " active";
 }
-// the selection/button that adds a subject
+// the selection and button that adds a subject
 
 
 

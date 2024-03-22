@@ -59,13 +59,17 @@ main{
 }
 .selectSub{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .navSubject .selectSub select{
+    display: none;
     text-align: center;
     border-radius: 10pt;
     width: 70%;
 }
 .selectSub button{
+    display: none;
     border-style: none;
     border-radius: 10pt;
     width: 70%;
