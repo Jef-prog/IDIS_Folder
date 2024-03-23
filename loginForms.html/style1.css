@@ -1,16 +1,45 @@
 *{
     margin: 0%;
+    color: whitesmoke;
 }
 
-main{
-    margin-top: 20pt;
-    display: flex;
-    justify-content: space-around;
-    align-items: center
+header{
+    background-color: #0C1821;
+    padding: 20pt;
 }
-div{
+
+body{
+    background-color: #324A5F;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20pt;
+    align-items: center;
+}
+.card{
     flex-wrap: wrap;
-    border-style: solid;
     width: 20%;
-    height: 90pt;
+    background-color: rgba(224, 138, 25, 0.733);
+    border-radius: 10pt;
+    box-shadow: 5pt 5pt 11pt 1pt black;
+}
+
+.title{
+    background-color: #0C1821;
+    padding: 5pt;
+    border-top-left-radius: 5pt;
+    border-top-right-radius: 5pt;
+}
+.login{
+    background-color: #0C1821;
+    padding: 5pt;
+    border-style: none;
+    width: 100%;
+    border-bottom-left-radius: 5pt;
+    border-bottom-right-radius: 5pt;
+}
+.login:hover{
+    background-color: #324A5F;
 }

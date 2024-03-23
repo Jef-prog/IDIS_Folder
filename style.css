@@ -9,9 +9,10 @@
 }
 div .logo{
     text-align: center;
+    height: 70pt;
 }
 img{
-    height: 70pt;
+    height: 60pt;
     margin: 10pt;
     border-radius: 10%;
 }
