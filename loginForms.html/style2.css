@@ -26,7 +26,7 @@ main{
 }
 .card{
     flex-wrap: wrap;
-    width: 20%;
+    width: 300pt;
     background-color: rgba(224, 138, 25, 0.733);
     border-radius: 10pt;
     box-shadow: 5pt 5pt 11pt 1pt black;
@@ -48,4 +48,11 @@ main{
 }
 .login:hover{
     background-color: #324A5F;
+}
+input{
+    border-style: none;
+    border-radius: 3pt;
+    opacity: 80%;
+    margin: 5pt;
+    color: black;
 }
