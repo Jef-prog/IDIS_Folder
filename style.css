@@ -51,6 +51,10 @@ main{
     border-bottom-right-radius: 10pt;
     box-shadow: 10px 20px 20px;
 }
+.subList{
+    background-color: white;
+    margin: 15%;
+}
 
 /*DISPLAYS*/
 .navSubject ul{
@@ -64,16 +68,23 @@ main{
     justify-content: center;
 }
 .navSubject .selectSub select{
-    display: none;
+    /*display: none;*/
     text-align: center;
     border-radius: 10pt;
     width: 70%;
+}
+.navSubject .selectIns select{
+    /*display: none;*/
+    text-align: center;
+    border-radius: 10pt;
+    width: 70%;
+    margin-left: 15%;
 }
 .selectSub button{
     display: none;
     border-style: none;
     border-radius: 10pt;
-    width: 70%;
+    width: 10%;
 }
 .selectSub button:hover{
     cursor: pointer;
@@ -94,7 +105,6 @@ main{
 }
 .navSubject ul button{
     border-style: none;
-    padding-inline: 50%;
     border-radius: 10pt;
 }
 
@@ -147,6 +157,27 @@ header{
 
 
 
+.br{
+    background-color: #324A5F;
+}
+
+table{
+    width: 95%;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.remarksTable th{
+    background-color: #0C1821;
+    text-align: center;
+}
+.remarksTable tr{
+    background-color: #324A5F;
+}
+.remarksTable .submitRemarks{
+    background-color: burlywood;
+}
 
 
 /*RESPONSIVE media*/

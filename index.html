@@ -15,9 +15,55 @@
                     <img src="logo.png" alt="sample logo">
                 </div>
                 <div>
-                    <ul>Name: Teacher's name</ul>
-                    <ul>ID: Teacher's ID</ul>
+                    <ul>Name: Student's full name</ul>
+                    <ul>ID:000000000</ul>
                 </div>
+                <div class="subList">
+                    <div>/*Pending List of syllabi with instructors' names bellow each.*/<br>sample:</div>
+                    
+                    <!--
+                    <div class="selectSub">
+                        <select name="" id="showSelect">
+                            <option value="">ADGEC 1</option>
+                            <option value="">FIL 102</option>
+                            <option value="">GEC 1</option>
+                            <option value="">GEC 2</option>
+                            <option value="">GEC 3</option>
+                            <option value="">GEC 4</option>
+                            <option value="">GEC 5</option>
+                            <option value="">GEC 6</option>
+                            <option value="">GEC 7</option>
+                            <option value="">GEC 8</option>
+                            <option value="">GEC 9</option>
+                            <option value="">GEC ELECT 1</option>
+                            <option value="">GEC ELECT 2</option>
+                            <option value="">GEC ELECT 3</option>
+                            <option value="">LIT</option>
+                            <option value="">NSTP-LTS 2</option>
+                            <option value="">NSTP-CWTS  2</option>
+                            <option value="">REED 101</option>
+                            <option value="">REED 103</option>
+                            <option value="">SP</option>
+                            <option value="">STAT</option>
+                        </select>
+                    </div>
+                    -->
+                    <div class="br"><br></div>
+                    <div>
+                        <table style="color: black;">
+                            <tr>
+                                <th>REED 101</th>
+                            </tr>
+                            <tr>
+                                <td>"instructor's name"</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <br>
+                <!--
+                <div class="subList">Filter</div>
                 <div class="selectSub">
                     <select name="" id="showSelect">
                         <option value="">ADGEC 1</option>
@@ -31,41 +77,39 @@
                         <option value="">GEC 7</option>
                         <option value="">GEC 8</option>
                         <option value="">GEC 9</option>
-                        <option value="">GEC ELECT 1</option>
-                        <option value="">GEC ELECT 2</option>
-                        <option value="">GEC ELECT 3</option>
-                        <option value="">LIT</option>
-                        <option value="">NSTP-LTS 2</option>
-                        <option value="">NSTP-CWTS  2</option>
-                        <option value="">REED 101</option>
-                        <option value="">REED 103</option>
-                        <option value="">SP</option>
-                        <option value="">STAT</option>
                     </select>
-                    <button id="showButton">Add</button>
                 </div>
-                <ul class="subList">
-                    <li>GEC1</li>
-                    <li>GEC2</li>
-                    <li>GEC3</li>
-                    <li>GEC4</li>
-                    <li>GEC5</li>
-                </ul>
+                <div class="selectIns">
+                    <select name="" id="showSelect" placeholder="da">
+                        <option value="">Instructor1</option>
+                        <option value="">Instructor2</option>
+                        <option value="">Instructor3</option>
+                        <option value="">Instructor4</option>
+                    </select>
+                </div>
+                -->
+                <!--
                 <div>
                     <ul>
-                        <button onclick="showSelection()">+</button> <!--ADD a Subject Button-->
-                        <!-- <div class="dropdownBtnContent">Add a subject</div> -->
+                        <button onclick="showSelection()">Find Subject</button>
+                    </ul>
+                    <ul>
+                        <button onclick="showSelection()">Find Teacher</button>
                     </ul>
                 </div>
+                -->
             </nav>
             <div class="implementContainer">
                 <header><h5>Instructional Delivery Implementation System (IDIS)</h5><p>Saint Micheal College of Caraga (SMCC)</p>
                     <div></div>
                     <div>
                         <nav class="navtab">
+                                <!--
                                 <button class="tablinks" onclick="openTab(event, 'Syllabus')">Syllabus</button>
-                                <button class="tablinks" onclick="openTab(event, 'Course')">Course Outline</button>
-                                <button class="tablinks" onclick="openTab(event, 'Competencies')">Competencies</button>
+                                
+                                <button class="tablinks" onclick="openTab(event, 'Course')">Remarks</button>
+                                -->
+                                <button class="tablinks" onclick="openTab(event, 'Competencies')">Syllabus</button>
                         </nav>
                     </div>
                 </header>
@@ -76,11 +120,41 @@
                           </div>
                           
                           <div id="Course" class="tabcontent">
-                            <h4><br>Course Outline</h4>
+                            <h4><br>Students' remarks on course outlines and teacher's remarks on competencies</h4>
                           </div>
                           
                           <div id="Competencies" class="tabcontent">
-                            <h4><br>Competencies</h4>
+                            <h4><br>ILOs and Course Outlines</h4>
+                            <div class="content">
+                                <table class="remarksTable">
+                                    <tr>
+                                        <th>Intended Learning Outcomes (ILOs)</th>
+                                        <th>Course Outlines</th>
+                                        <th>Remark</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Students will be able to understand the ... </td>
+                                        <td>Introduction to ... </td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>... </td>
+                                        <td>... </td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>... </td>
+                                        <td>... </td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr class="submitRemarks">
+                                        <td></td>
+                                        <td></td>
+                                        <td><button>Submit</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+
                           </div>
                     </div>
                 </main>               
